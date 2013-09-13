@@ -1,0 +1,6 @@
+//
+// Mixins
+//
+
+.dev-home-panel { @include panel($palegray, $sp4, true); }
+
