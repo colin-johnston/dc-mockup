@@ -2,5 +2,6 @@
 // Mixins
 //
 
-.dev-home-panel { @include panel($palegray, $sp4, true); }
+.dev-home-panel { @include panel($palegray, $sp3, true); }
 
+.sdk-panel { @include panel($lightgray, $sp2, false); }

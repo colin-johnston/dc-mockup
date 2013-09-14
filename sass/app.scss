@@ -1,8 +1,15 @@
+
 // Bourbon
 @import "bourbon";
 
 // Global Foundation Settings
 @import "settings";
+
+
+// Dev Center UI
+// * needs to come after settings and before foundation for overrides
+@import "devcenter-ui"; 
+
 
 // Comment out this import if you don't want to use normalize
 @import "normalize";
@@ -57,5 +64,9 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-// Dev Center UI
-@import "devcenter-ui";
+
+
+
+@import "mixins";
+
+
