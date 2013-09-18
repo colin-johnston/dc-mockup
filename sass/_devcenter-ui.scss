@@ -39,7 +39,7 @@ $header-font-family: "Lato", "Helvetica", Helvetica, Arial, sans-serif;
 // $h1-font-size: emCalc(44);
 // $h2-font-size: emCalc(37);
 // $h3-font-size: emCalc(27);
-//$h4-font-size: emCalc(23);
+// $h4-font-size: emCalc(23);
 // $h5-font-size: emCalc(18);
 // $h6-font-size: 1em;
 
@@ -79,6 +79,7 @@ $list-side-margin: 1em;
 
 .center {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .dev-home-intro {
@@ -86,12 +87,19 @@ $list-side-margin: 1em;
 }
 
 // lock heights on top two panels - temp
-.dev-home-panel, .sdk-panel { height: 286px; }
+//.dev-home-panel, .sdk-panel { height: 286px; }
 
 .dev-home-head {
 	color: $gray;
 	font-size: 3em;
 	font-weight: 300;
+}
+
+.head-wrap {
+	background-color: $slategray;
+	margin-top: -1.875em;
+	margin-bottom: 1.5em;
+	padding: 1em 0 .5em 0;
 }
 
 

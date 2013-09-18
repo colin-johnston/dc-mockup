@@ -2,6 +2,17 @@
 // Mixins
 //
 
-.dev-home-panel { @include panel($palegray, $sp3, true); }
+.dev-home-panel { 
+	@include panel($palegray, $sp3, true); 
+	border-radius: 5px;
+}
 
-.sdk-panel { @include panel($lightgray, $sp2, false); }
+.sdk-panel { 
+	@include panel($lightgray, $sp2, false); 
+	border-radius: 5px;
+}
+
+.dev-home-panel-sm, .dev-panel-sm { 
+	@include panel($panel-bg, $sp2, false);
+	border-radius: 5px;
+}
