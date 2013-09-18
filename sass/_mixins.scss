@@ -3,7 +3,7 @@
 //
 
 .dev-home-panel { 
-	@include panel($palegray, $sp3, true); 
+	@include panel(#fafafa, $sp3, true); 
 	border-radius: 5px;
 }
 

@@ -6,10 +6,9 @@
 @import "settings";
 
 
-// Dev Center UI
+// Developer Center UI
 // * needs to come after settings and before foundation for overrides
 @import "devcenter-ui"; 
-
 
 // Comment out this import if you don't want to use normalize
 @import "normalize";
@@ -64,9 +63,7 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-
-
-
 @import "mixins";
+
 
 
