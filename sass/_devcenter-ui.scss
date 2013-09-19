@@ -46,12 +46,63 @@ body {
 	}
 }
 
+.top-bar-section ul.left { background-color: $topbar-bg }
 .top-bar-section input[type="search"] {
 	font-size: 0.75em;
 	border-radius: 1em;
 	top: 0.8em;
+	margin-left: 1em;
 }
 
 h3, h4 {
 	font-weight: 400;
+}
+
+
+li.name > h1 {
+	float: left;
+}
+
+// Logo - from console
+
+.logo {
+float: left;
+margin: 14px 0 0 16px;
+}
+
+.sprites-logo_white {
+background: url("//assets.moovweb.net/moovplatform/console-prod/v143/images/sprites.png") no-repeat 0px -2288px;
+width: 132px;
+height: 18px;
+}
+
+//
+
+
+.section-container.tabs > .section p.title {
+	width: 25% !important;
+	text-align: center;
+}
+
+.section-container.tabs > .section:nth-child(0) p.title {
+left: 0;
+}
+.section-container.tabs > .section:nth-child(1) p.title {
+left: 25%;
+}
+.section-container.tabs > .section:nth-child(2) p.title {
+left: 50%;
+}
+.section-container.tabs > .section:nth-child(3) p.title {
+left: 75%;
+}
+
+.section-container.tabs > .section > .content {
+	padding: 2em;
+}
+
+
+
+.sdk-panel .center p {
+	margin-bottom: 0.75em;
 }
