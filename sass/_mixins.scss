@@ -16,3 +16,8 @@
 	@include panel($panel-bg, $sp2, false);
 	border-radius: 5px;
 }
+
+
+@mixin temp-space {
+	min-height: 1500px;
+}
