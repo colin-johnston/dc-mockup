@@ -1,44 +1,4 @@
 @charset "UTF-8";
-body {
-  background-color: #fafafa;
-}
-body.dev-home {
-  background-color: #f5f7f8;
-}
-
-.center {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.dev-home-intro {
-  font-size: 150%;
-}
-
-.dev-home-head {
-  color: #9ea7b3;
-  font-size: 3em;
-  font-weight: 300;
-}
-
-.head-wrap {
-  background-color: #798596;
-  margin-top: -1.875em;
-  margin-bottom: 1.5em;
-  padding: 1em 0 0.5em 0;
-}
-body.dev-home .head-wrap {
-  background-color: #f5f7f8;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-.top-bar-section input[type="search"] {
-  font-size: 0.75em;
-  border-radius: 1em;
-  top: 0.8em;
-}
-
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -6228,4 +6188,49 @@ a.th {
 }
 .dev-home-panel-sm > :last-child, .dev-panel-sm > :last-child {
   margin-bottom: 0;
+}
+
+body {
+  min-height: 1500px;
+  background-color: #fafafa;
+}
+body.dev-home {
+  background-color: #f5f7f8;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dev-home-intro {
+  font-size: 150%;
+}
+
+.dev-home-head {
+  color: #9ea7b3;
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.head-wrap {
+  background-color: #798596;
+  margin-top: -1.875em;
+  margin-bottom: 1.5em;
+  padding: 1em 0 0.5em 0;
+}
+body.dev-home .head-wrap {
+  background-color: #f5f7f8;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.top-bar-section input[type="search"] {
+  font-size: 0.75em;
+  border-radius: 1em;
+  top: 0.8em;
+}
+
+h3, h4 {
+  font-weight: 400;
 }
