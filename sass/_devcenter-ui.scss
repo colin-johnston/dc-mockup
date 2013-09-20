@@ -51,7 +51,7 @@ body {
 	font-size: 0.75em;
 	border-radius: 1em;
 	top: 0.8em;
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 h3, h4 {
@@ -59,9 +59,7 @@ h3, h4 {
 }
 
 
-li.name > h1 {
-	float: left;
-}
+
 
 // Logo - from console
 
@@ -78,6 +76,17 @@ height: 18px;
 
 //
 
+
+li.name > h1 {
+	float: left;
+}
+
+.top-bar .name h1 a {
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: -1px;
+	padding-left: 8px;
+}
 
 .section-container.tabs > .section p.title {
 	width: 25% !important;
