@@ -17,6 +17,15 @@
 	border-radius: 5px;
 }
 
+.download-panel { 
+  @include panel(#ffffff, $sp3, true); 
+  border-radius: 5px;
+}
+
+.signup-panel { 
+  @include panel($palegreen, $sp3, true); 
+  border-radius: 5px;
+}
 
 @mixin temp-space {
 	min-height: 1500px;
